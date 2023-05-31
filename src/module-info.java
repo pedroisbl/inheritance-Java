@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Servidor
+ *
+ */
+module inheritance {
+}
