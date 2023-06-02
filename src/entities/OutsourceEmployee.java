@@ -8,11 +8,12 @@ public final class OutsourceEmployee extends Employee{
 		super();
 	}
 	
-	
-	public OutsourceEmployee(double additionalCharge) {
-		super();
+
+	public OutsourceEmployee(String name, Integer hours, Double valuePerHour, double additionalCharge) {
+		super(name, hours, valuePerHour);
 		this.additionalCharge = additionalCharge;
 	}
+
 
 	public double getAdditionalCharge() {
 		return additionalCharge;
